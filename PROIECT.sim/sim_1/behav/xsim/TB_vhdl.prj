@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PROIECT.srcs/sources_1/new/EX.vhd" \
+"../../../../PROIECT.srcs/sources_1/new/ID.vhd" \
+"../../../../PROIECT.srcs/sources_1/new/Instr_Fetch.vhd" \
+"../../../../PROIECT.srcs/sources_1/new/MEM.vhd" \
+"../../../../PROIECT.srcs/sources_1/new/modul_principal.vhd" \
+"../../../../PROIECT.srcs/sim_1/new/TB.vhd" \
+
+# Do not sort compile order
+nosort

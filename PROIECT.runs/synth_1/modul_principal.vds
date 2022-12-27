@@ -1,0 +1,395 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Jan  3 13:50:08 2021
+# Process ID: 524
+# Current directory: D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.runs/synth_1
+# Command line: vivado.exe -log modul_principal.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source modul_principal.tcl
+# Log file: D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.runs/synth_1/modul_principal.vds
+# Journal file: D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source modul_principal.tcl -notrace
+Command: synth_design -top modul_principal -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4472
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1023.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'modul_principal' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:30]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:119]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:134]
+INFO: [Synth 8-3491] module 'Instr_Fetch' declared at 'D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/Instr_Fetch.vhd:36' bound to instance 'Instruction_Fetch' of component 'Instr_Fetch' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'Instr_Fetch' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/Instr_Fetch.vhd:48]
+WARNING: [Synth 8-614] signal 'PC' is read in the process but is not in the sensitivity list [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/Instr_Fetch.vhd:103]
+INFO: [Synth 8-256] done synthesizing module 'Instr_Fetch' (1#1) [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/Instr_Fetch.vhd:48]
+INFO: [Synth 8-3491] module 'ID' declared at 'D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd:36' bound to instance 'D' of component 'ID' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'ID' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd:51]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd:63]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'ID' (2#1) [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd:51]
+INFO: [Synth 8-3491] module 'EX' declared at 'D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:36' bound to instance 'E' of component 'EX' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'EX' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:51]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:69]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:79]
+INFO: [Synth 8-226] default block is never used [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:100]
+WARNING: [Synth 8-614] signal 'semn' is read in the process but is not in the sensitivity list [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'EX' (3#1) [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:51]
+INFO: [Synth 8-3491] module 'MEM' declared at 'D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/MEM.vhd:36' bound to instance 'Me' of component 'MEM' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'MEM' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/MEM.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'MEM' (4#1) [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/MEM.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'modul_principal' (5#1) [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd:30]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1023.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1023.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1023.906 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1023.906 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Clk'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports Clk]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'Y[0]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[1]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[2]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[3]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[4]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[5]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[6]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Y[7]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[0]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[1]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[2]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[3]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[4]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[5]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[6]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'X[7]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Term'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[0]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[1]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[2]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[3]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[4]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[5]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[6]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Seg[7]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[0]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[1]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[2]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[3]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[4]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[5]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[6]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[7]'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Start'. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/constrs_1/new/constrangeri.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/modul_principal_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/modul_principal_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1028.395 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1028.395 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1028.395 ; gain = 4.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1028.395 ; gain = 4.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1028.395 ; gain = 4.488
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'Bgt_Flag_Aux_reg' [D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/EX.vhd:103]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1028.395 ; gain = 4.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 2     
+	   3 Input   16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              256 Bit	(16 X 16 bit)          RAMs := 1     
+	              128 Bit	(8 X 16 bit)          RAMs := 1     
++---Muxes : 
+	  26 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 7     
+	   8 Input   16 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   6 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1028.395 ; gain = 4.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++----------------+----------------+-----------+----------------------+----------------+
+|Module Name     | RTL Object     | Inference | Size (Depth x Width) | Primitives     | 
++----------------+----------------+-----------+----------------------+----------------+
+|modul_principal | Me/ram_reg     | Implied   | 16 x 16              | RAM16X1S x 16	 | 
+|modul_principal | D/reg_file_reg | Implied   | 8 x 16               | RAM32M x 6	    | 
++----------------+----------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.398 ; gain = 5.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.695 ; gain = 5.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++----------------+----------------+-----------+----------------------+----------------+
+|Module Name     | RTL Object     | Inference | Size (Depth x Width) | Primitives     | 
++----------------+----------------+-----------+----------------------+----------------+
+|modul_principal | Me/ram_reg     | Implied   | 16 x 16              | RAM16X1S x 16	 | 
+|modul_principal | D/reg_file_reg | Implied   | 8 x 16               | RAM32M x 6	    | 
++----------------+----------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1058.270 ; gain = 34.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    12|
+|3     |LUT1     |     3|
+|4     |LUT2     |    12|
+|5     |LUT3     |    18|
+|6     |LUT4     |    21|
+|7     |LUT5     |    47|
+|8     |LUT6     |    43|
+|9     |RAM16X1S |    16|
+|10    |RAM32M   |     6|
+|11    |FDRE     |    21|
+|12    |LD       |     1|
+|13    |IBUF     |     3|
+|14    |OBUF     |   115|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1064.055 ; gain = 35.660
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1064.055 ; gain = 40.148
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1076.121 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 35 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1076.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 23 instances were transformed.
+  LD => LDCE: 1 instance 
+  RAM16X1S => RAM32X1S (RAMS32): 16 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 39 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1076.121 ; gain = 52.215
+INFO: [Common 17-1381] The checkpoint 'D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.runs/synth_1/modul_principal.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file modul_principal_utilization_synth.rpt -pb modul_principal_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  3 13:50:49 2021...

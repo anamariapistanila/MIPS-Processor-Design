@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/ID.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ID'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/Instr_Fetch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Instr_Fetch'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/MEM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MEM'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sources_1/new/modul_principal.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'modul_principal'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/windows.10/Desktop/SSC/PROIECT/PROIECT.srcs/sim_1/new/TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB'
